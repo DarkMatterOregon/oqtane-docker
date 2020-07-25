@@ -164,7 +164,9 @@ namespace Oqtane.Services
 
             apiurl += $"api/{serviceName}";
 
-            return apiurl;
+            //return apiurl;
+
+            return "http://localhost:80" + apiurl;
         }
 
         // can be used to override the default alias
